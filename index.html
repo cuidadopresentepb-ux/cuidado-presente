@@ -1,323 +1,143 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cuidado Presente</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cuidado Presente | Cuidados e Companhia</title>
 
-  <style>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
 
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      font-family:Arial, sans-serif;
-    }
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-    body{
-      background:#f4f7fa;
-      color:#333;
-    }
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1b7f8c;
+}
 
-    header{
-      background:#0d6efd;
-      color:white;
-      text-align:center;
-      padding:25px;
-    }
+.btn {
+  background: #1b7f8c;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+}
 
-    header h1{
-      font-size:38px;
-    }
+.hero {
+  padding: 50px 20px;
+  text-align: center;
+}
 
-    nav{
-      background:#084298;
-      text-align:center;
-      padding:15px;
-    }
+.hero h1 {
+  font-size: 38px;
+  color: #1b7f8c;
+}
 
-    nav a{
-      color:white;
-      text-decoration:none;
-      margin:15px;
-      font-weight:bold;
-    }
+.hero p {
+  font-size: 18px;
+}
 
-    .hero{
-      height:400px;
-      background:url('https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1200&auto=format&fit=crop') center/cover;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      text-align:center;
-      color:white;
-    }
+.servicos {
+  padding: 30px 20px;
+  background: #f5f8f8;
+}
 
-    .hero-content{
-      background:rgba(0,0,0,0.5);
-      padding:30px;
-      border-radius:20px;
-    }
+.card {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 15px;
+}
 
-    .hero h2{
-      font-size:42px;
-      margin-bottom:15px;
-    }
-
-    .hero p{
-      font-size:20px;
-      margin-bottom:25px;
-    }
-
-    .btn{
-      background:#25d366;
-      color:white;
-      text-decoration:none;
-      padding:15px 30px;
-      border-radius:12px;
-      font-size:20px;
-      display:inline-block;
-    }
-
-    section{
-      max-width:1100px;
-      margin:auto;
-      padding:50px 20px;
-    }
-
-    .cards{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-      gap:20px;
-      margin-top:30px;
-    }
-
-    .card{
-      background:white;
-      padding:25px;
-      border-radius:18px;
-      box-shadow:0 4px 10px rgba(0,0,0,0.1);
-      text-align:center;
-    }
-
-    .card h3{
-      color:#0d6efd;
-      margin-bottom:15px;
-    }
-
-    .contato{
-      background:white;
-      padding:30px;
-      border-radius:20px;
-      box-shadow:0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    input, textarea{
-      width:100%;
-      padding:15px;
-      margin-top:10px;
-      margin-bottom:20px;
-      border-radius:10px;
-      border:1px solid #ccc;
-      font-size:16px;
-    }
-
-    button{
-      width:100%;
-      padding:15px;
-      border:none;
-      border-radius:10px;
-      background:#0d6efd;
-      color:white;
-      font-size:18px;
-      cursor:pointer;
-    }
-
-    button:hover{
-      background:#084298;
-    }
-
-    footer{
-      background:#084298;
-      color:white;
-      text-align:center;
-      padding:20px;
-      margin-top:40px;
-    }
-
-  </style>
+footer {
+  padding: 30px;
+  text-align: center;
+}
+</style>
 
 </head>
 
 <body>
 
 <header>
+<div class="logo">Cuidado Presente</div>
 
-  <h1>Cuidado Presente</h1>
-
-  <p>
-    Cuidado humano com carinho e segurança 💙
-  </p>
-
-</header>
-
-<nav>
-
-  <a href="#sobre">Sobre</a>
-  <a href="#servicos">Serviços</a>
-  <a href="#contato">Contato</a>
-  <a href="trabalhe-conosco.html">Trabalhe Conosco</a>
-</nav>
-
-<div class="hero">
-
-  <div class="hero-content">
-
-    <h2>Cuidadores de Idosos 24 Horas</h2>
-
-    <p>
-      Atendimento domiciliar com dedicação, respeito e confiança.
-    </p>
-
-    <a class="btn"
-    href="https://wa.me/5546999004621">
-      Falar no WhatsApp
-    </a>
-
-  </div>
-
-</div>
-
-<section id="sobre">
-
-  <h2>Sobre Nós</h2>
-
-  <p style="margin-top:20px; line-height:1.8;">
-
-    Somos especialistas em cuidados com idosos.
-    Nossa missão é oferecer tranquilidade às famílias
-    e atendimento humanizado aos pacientes.
-
-  </p>
-
-</section>
-
-<section id="servicos">
-
-  <h2>Nossos Serviços</h2>
-
-  <div class="cards">
-
-    <div class="card">
-      <h3>👵 Cuidador Diário</h3>
-      <p>Acompanhamento completo durante o dia.</p>
-    </div>
-
-    <div class="card">
-      <h3>🌙 Cuidador Noturno</h3>
-      <p>Assistência e segurança durante a noite.</p>
-    </div>
-
-    <div class="card">
-      <h3>🏥 Pós-Cirúrgico</h3>
-      <p>Cuidados especiais após cirurgias e internações.</p>
-    </div>
-
-    <div class="card">
-      <h3>🚑 Acompanhamento</h3>
-      <p>Consultas, exames e acompanhamento hospitalar.</p>
-    </div>
-
-  </div>
-
-</section>
-
-<section id="contato">
-
-  <div class="contato">
-
-    <h2>Entre em Contato</h2>
-
-    <form onsubmit="enviarWhats(event)">
-
-      <input
-      type="text"
-      id="nome"
-      placeholder="Seu nome"
-      required>
-
-      <input
-      type="tel"
-      id="telefone"
-      placeholder="Seu telefone"
-      required>
-
-      <textarea
-      id="mensagem"
-      rows="5"
-      placeholder="Digite sua mensagem"
-      required></textarea>
-
-      <button type="submit">
-        Enviar Mensagem
-      </button>
-
-    </form>
-
-  </div>
-
-</section>
-
-<footer>
-
-  © 2026 Agência Vida Serena
-  Todos os direitos reservados
-
-</footer>
-
-<script>
-
-function enviarWhats(event){
-
-  event.preventDefault();
-
-  let nome =
-  document.getElementById("nome").value;
-
-  let telefone =
-  document.getElementById("telefone").value;
-
-  let mensagem =
-  document.getElementById("mensagem").value;
-
-  let texto =
-  `Olá, meu nome é ${nome}%0ATelefone: ${telefone}%0AMensagem: ${mensagem}`;
-
-  let numero = "5546999004621";
-
-  let url =
-  `https://wa.me/${numero}?text=${texto}`;
-
-  window.open(url, "_blank");
-
-}
-
-</script>
-<a href="https://wa.me/5546999004621" 
-style="
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:white;
-padding:15px;
-border-radius:50px;
-text-decoration:none;
-font-weight:bold;">
+<a class="btn" href="https://wa.me/55SEUNUMERO">
 WhatsApp
 </a>
 
- 
-  
+</header>
+
+
+<section class="hero">
+
+<h1>Cuidado e companhia para quem você ama</h1>
+
+<p>
+Atendimento personalizado com cuidadores preparados para oferecer segurança,
+carinho e apoio no dia a dia.
+</p>
+
+<a class="btn" href="https://wa.me/55SEUNUMERO">
+Solicitar atendimento
+</a>
+
+</section>
+
+
+<section class="servicos">
+
+<h2>Nossos serviços</h2>
+
+<div class="card">
+<h3>Cuidador domiciliar</h3>
+<p>
+Auxílio nas atividades diárias, companhia e cuidados no conforto do lar.
+</p>
+</div>
+
+
+<div class="card">
+<h3>Acompanhante hospitalar</h3>
+<p>
+Apoio durante internações e períodos de recuperação.
+</p>
+</div>
+
+
+<div class="card">
+<h3>Atendimento 24 horas</h3>
+<p>
+Cuidado contínuo conforme a necessidade da família.
+</p>
+</div>
+
+</section>
+
+
+<footer>
+
+<h2>Precisa de ajuda?</h2>
+
+<p>
+Fale com a Cuidado Presente pelo WhatsApp.
+</p>
+
+<a class="btn" href="https://wa.me/55SEUNUMERO">
+Conversar agora
+</a>
+
+</footer>
+
 </body>
 </html>
